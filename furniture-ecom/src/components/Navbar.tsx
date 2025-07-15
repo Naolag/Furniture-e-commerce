@@ -22,14 +22,14 @@ export default function Navbar(){
     return(
         <div>
             <div>
-                <div className=" flex flex-row justify-between w-full items-center mt-4 fixed z-50 bg-white  ">
+                <div className=" flex flex-row justify-between w-full items-center  fixed z-50 bg-white   ">
                     <div>
                         <a href="#home" className="text-[34px] text-[#054C73] ml-10 lg::ml-16 font-sans">Furniture</a>
                     </div>
                     <div className=" hidden md:flex flex-row justify-center items-center gap-8 mr-16 font-sans text-[14px] text-[#333333]">
                         <a href="#home">Home</a>
                         <a href="#services">Services</a>
-                        <a href="#doctors">Doctors</a>
+                        <a href="#collection">Collections</a>
                         <a href="#products">Products</a>
                         <a href="#gallery">Gallery</a>
                     </div>
@@ -43,7 +43,7 @@ export default function Navbar(){
                     <div className="flex flex-col ml-10 justify-center font-sans text-[30px] text-white gap-16 mt-32 pb-10 ">
                         <a href="#home">Home</a>
                         <a href="#services">Services</a>
-                        <a href="#doctors">Doctors</a>
+                        <a href="#collection">Collections</a>
                         <a href="#products">Products</a>
                         <a href="#gallery">Gallery</a>
                     </div>

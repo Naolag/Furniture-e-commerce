@@ -6,11 +6,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      fontFamily: {
-        sans: ['var(--font-montserrat)', 'sans-serif'],
-      },
+     
     },
   },
+  
   plugins: [],
 }
 export default config

@@ -1,10 +1,16 @@
 // src/app/page.tsx
-
+import Hero from "@/components/Hero"
+import Service from "@/components/Service"
+import Collection from "@/components/Collections"
 export default function HomePage() {
   return (
-    <main className="text-center py-10">
-      <h1 className="text-4xl font-bold text-gray-800">Furniture Store 🪑</h1>
-      <p className="text-lg mt-4 text-gray-600">Let's make this real!</p>
+    <main className="text-center">
+      <div className="pt-20">
+        <Hero/>
+        <Service/>
+        <Collection/>
+      </div>
+      
     </main>
   )
 }

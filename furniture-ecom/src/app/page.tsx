@@ -2,6 +2,7 @@
 import Hero from "@/components/Hero"
 import Service from "@/components/Service"
 import Collection from "@/components/Collections"
+import Beautify from "@/components/Beautify"
 export default function HomePage() {
   return (
     <main className="text-center">
@@ -9,6 +10,7 @@ export default function HomePage() {
         <Hero/>
         <Service/>
         <Collection/>
+        <Beautify/>
       </div>
       
     </main>

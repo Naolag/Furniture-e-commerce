@@ -4,7 +4,7 @@ import ellipse from "@/assets/Ellipse.png"
 import Image from "next/image"
 export default function Beautify(){
     return(
-        <section className="min-w-[320px]">
+        <section id="products" className="min-w-[320px]">
             <div className="flex md:flex-row flex-col-reverse  justify-between md:items-center bg-[#F2F5FF]">
                 <div className="md:max-w-[30%] mx-10 text-center sm:mr-[20] sm:text-start sm:ml-52 md:ml-[10%] mb-20"> 
                     <p className="font-[700] text-[32px] text-[#333333]">Beautify Your Space</p>

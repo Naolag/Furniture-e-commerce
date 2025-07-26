@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "@supabase/supabase-js": "^2.52.0",
-    "react-hot-toast": "^2.5.2"
-  }
-}

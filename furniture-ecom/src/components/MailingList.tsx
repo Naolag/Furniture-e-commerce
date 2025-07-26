@@ -1,10 +1,12 @@
 'use client'
+import { supabase } from "@/lib/supabaseClient";
 import { useState } from "react";
 import toast from "react-hot-toast";
 
 export default function MailingList(){
     const [email,setEmail]=useState("")
-    const handleSubmit = () => {
+    const handleSubmit = async (e: React.FormEvent) => {
+        e.preventDefault
         const isValidEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)
       
         if (!email) {

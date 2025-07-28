@@ -6,6 +6,7 @@ import Beautify from "@/components/Beautify"
 import HowItWorks from "@/components/HowItWorks"
 import MailingList from "@/components/MailingList"
 import Gallery from "@/components/Gallery"
+import ProductsSection from "@/components/ProductsSection"
 export default function HomePage() {
   return (
     <main className="text-center">
@@ -17,6 +18,7 @@ export default function HomePage() {
         <Gallery/>
         <HowItWorks/>
         <MailingList/>
+        <ProductsSection/>
       </div>
       
     </main>
